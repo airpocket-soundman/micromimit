@@ -6,11 +6,11 @@
 作品紹介  
 https://www.youtube.com/watch?v=DAX19flW3io  
 　
-# SRC
+# src
 開発環境はmicrobit python editorです  
 
 ## idou.py
-音センシングを行う意送信側のmicrobit用。  
+音センシングを行う送信側のmicrobit用。  
 idou = 移動の意味。トースターや電子レンジなどいまから音が鳴ることがわかる家電に使う端末。  
 番号でどの家電に設置するかを選んでから音が鳴る部位に置いておく。  
   
