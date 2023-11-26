@@ -1,20 +1,11 @@
 from microbit import *
 import radio
 
-# 音を感知したかどうかのフラグ
-mic = 0
-
-# 無線グループを0に設定
-radio.config(group=0)
-
-# 無線をオン
-radio.on()
-
-# ディスプレイにAと表示
-display.show('A')
-
-# マイクのしきい値を1に設定
-microphone.set_threshold(SoundEvent.LOUD, 1)
+mic = 0                                              # 音を感知したかどうかのフラグ
+radio.config(group=0)                                # 無線グループを0に設定
+radio.on()                                           # 無線をオン
+display.show('A')                                    # ディスプレイにAと表示
+microphone.set_threshold(SoundEvent.LOUD, 1)         # マイクのしきい値を1に設定
 
 # メインループ
 while True:
